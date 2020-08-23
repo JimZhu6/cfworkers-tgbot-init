@@ -1,0 +1,21 @@
+{
+  "name": "cfworkers-tgbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@cfworker/web": "^1.3.0",
+    "cfworker-middware-telegraf": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack .",
+    "sethook": "node webhook.js"
+  },
+  "author": "Jim",
+  "license": "ISC"
+}
